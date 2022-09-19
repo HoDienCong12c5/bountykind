@@ -1,0 +1,11 @@
+@use "sass:map";
+@import "pages/Style/variable.scss";
+.modal-base {
+    .ant-modal{
+        color:map-get($text-colors, 'color-white' )!important ;
+        .ant-modal-content{
+            background:  map-get($background-colors,'bg-modal') !important;
+            border: 1px solid map-get($border-colors , 'border-modal' ) !important;
+        }
+    }
+}

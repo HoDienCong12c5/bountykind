@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "common/*": [
+        "./common/*"
+      ],
+      "controller/*": [
+        "./controller/*"
+      ],
+      "static/*": [
+        "./static/*"
+      ],
+      "pages/*": [
+        "./pages/*"
+      ],
+      "config/*": [
+        "./config/*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.js"
+    , "pages/Screen/MyNFTScreen/Components/ChargeToken" ,
+    "**/*.tsx",
+    "**/*.ts",
+    "**/index.d.ts" 
+, "pages/Screen/NftStore/Components/NFT3DNew."  ]
+}

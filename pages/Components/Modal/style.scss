@@ -1,0 +1,9 @@
+.buy-modal{
+    @media screen and (max-width: 768px){
+        .ant-modal{
+            .ant-modal-body{
+                padding: 20px;
+            }
+        }
+	}
+}

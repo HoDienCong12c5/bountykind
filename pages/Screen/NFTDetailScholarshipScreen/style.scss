@@ -1,0 +1,207 @@
+@use "sass:map";
+@import "pages/Style/variable.scss";
+
+.full-container {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.tb-history{
+    background-color: #1c1f25;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    .ant-table{
+        tbody 
+        > tr:hover > td {
+            background-color: transparent !important;
+        }
+        .ant-table-container{
+            .ant-table-content {
+                overflow: scroll;
+                &::-webkit-scrollbar {
+                    display: none;
+                  }
+                  -ms-overflow-style: none;
+                  scrollbar-width: none;
+            }
+            .ant-table-thead{
+                border-radius: 30px;
+                background-color: rgb(58, 58, 60);
+                tr{
+                    background-color: transparent;
+                    padding:0px 0px;
+                }
+                tr > th{
+                    padding:0px 0px;
+                    text-align: center;
+                }
+                .ant-table-cell{
+                    color: white !important;;
+                    background-color:transparent;
+                    padding:5px 15px;
+                    border-bottom: 0px;
+                }
+            }
+        }
+        .ant-empty-description {
+            color: white !important;
+        }
+    }
+    .ant-table-tbody{
+        //change bg-color- roe-even
+        color:rgb(180, 180, 183) ;
+    
+        border-bottom: 0px;
+    
+        tr:nth-child(odd)
+        {
+        background: rgba(45, 45, 49,1);
+        }
+        tr:nth-child(even)
+        {
+        background: rgb(33, 33, 35);
+        }
+        tr > td{
+            padding:0px 0px;
+            text-align: center;
+        }
+        .ant-table-cell{
+            padding:10px 15px 10px 15px;
+            border-bottom: 0px;
+            .on-hover{
+                color: rgb(106, 192, 255);
+                
+            }
+        }
+    }
+    .ant-pagination{
+        margin-right: 15px;
+        .ant-pagination-prev{
+            .ant-pagination-item-link{
+                background-color: rgba(45, 45, 49,1)!important;
+                border:10px;
+                border-top-left-radius: 15px;
+                border-bottom-left-radius: 15px;
+                color: white;
+            }  
+        }
+        .ant-pagination-next{
+            .ant-pagination-item-link{
+                background-color: rgba(45, 45, 49,1)!important;
+                border:10px;
+                border-top-right-radius: 15px;
+                border-bottom-right-radius: 15px;
+                color: white;
+            }  
+        }
+       
+        .ant-pagination-item{
+            border-color: transparent !important;
+            background-color: rgba(45, 45, 49,1) !important;
+            a{
+                color: white !important;
+                
+            }
+        }
+        .ant-pagination-item-active{ 
+            text-decoration: underline;
+            color: #1877F2 !important;
+            border-color: transparent !important;
+        }
+    }
+    .on-hover{
+        cursor: pointer;
+        &:hover{
+            text-decoration: underline; 
+        }
+    }
+}
+
+
+.animation {
+    animation: flicker 1s infinite alternate ease-in-out;
+
+    @keyframes flicker {
+        0% {
+            opacity: 0.2;
+            font-size: 20px;
+            color: white;
+
+        }
+
+        50% {
+            opacity: 0.5;
+            color: #F66164
+        }
+
+        100% {
+            opacity: 1;
+            color: #FA3A3D;
+        }
+    }
+
+    @-moz-keyframes flicker {
+        0% {
+            opacity: 0.2;
+            color: white;
+        }
+
+        50% {
+            opacity: 0.5;
+            color: #F66164
+        }
+
+        100% {
+            opacity: 1;
+            color: #FA3A3D;
+        }
+    }
+
+    @-webkit-keyframes flicker {
+        0% {
+            opacity: 0.2;
+            font-size: 18px;
+            color: white;
+        }
+
+        50% {
+            opacity: 0.5;
+            font-size: 16px;
+            color: #F66164
+        }
+
+        100% {
+            opacity: 1;
+            font-size: 14px;
+            color: #FA3A3D;
+        }
+    }
+}
+
+.ant-input-affix-wrapper>input.ant-input {
+    padding: 0;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+.ant-input-suffix {
+    color: black
+}
+
+.input.ant-input {
+    color: black;
+}
+
+.buttons-container {
+    flex: 2;
+    display: flex;
+    gap: 10px;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}

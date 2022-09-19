@@ -1,0 +1,20 @@
+.price-input-wrapper {
+  position: relative;
+  .ant-input-affix-wrapper {
+    background: #FFF;
+    height: 40px;
+    padding: 6px 20px 4px;
+  }
+  .ant-input-suffix {
+    font-size: 16px;
+    color: #BDBDBD;
+  }
+  .price-input-error {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    line-height: 20px;
+    color: #ff4d4f;
+    font-size: 14px;
+  }
+}

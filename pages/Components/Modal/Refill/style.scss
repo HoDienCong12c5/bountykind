@@ -1,0 +1,51 @@
+@import 'pages/Style/global.scss';
+@import 'pages/Style/variable.scss';
+
+.container-charge-swap {
+
+    // background-color: #1c1f25;
+    .title {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .description {
+        color: rgb(180, 180, 183);
+        font-size: 14px;
+    }
+
+    .input {
+        margin: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .btn-submit-charge {
+        width: 100%;
+        min-width: 100px;
+        border: none;
+        margin-top: 10px;
+        margin-right: 10px;
+        outline: none;
+        background: #1877F2;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 6px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        cursor: pointer;
+        opacity: 0.6;
+        transition: opacity 0.25s ease;
+
+        &:hover {
+            opacity: 1;
+        }
+
+    }
+}
+
+.input {
+    color: black
+}

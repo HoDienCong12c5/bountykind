@@ -1,0 +1,81 @@
+@use "sass:map";
+@import "pages/Style/variable.scss";
+.footer-container {
+  position: relative;
+  width: 100%;
+  height: 90px;
+  .move-to-top{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #B42033;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .up-arror{
+      width: 24px;
+      height: 24px;
+      background: url('./../../../static/Assets/Image/Icon/up-arrow.svg');
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+    }
+  }
+  .copy-right{
+    font-family: Crimson Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #828282;
+  }
+}
+
+.footer-container-mobile{
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  background: #B42033;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  .btn-connect-app{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
+    line-height: 14px;
+    padding: 0 10px;
+    &:hover,&:focus{
+      background: transparent;
+      color: #fff;
+      border-color: #fff;
+    }
+  }
+  .menu-item-mobile{
+    font-size: 8px;
+    line-height: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgba($color: #fff, $alpha: 0.5);
+    &.active{
+      color: #fff;
+    }
+  }
+}
+.input-email{
+  border: none !important;
+  &.ant-input:placeholder-shown {
+      opacity: 0.6;
+      border: none !important;
+  }
+}
+.ant-input-affix-wrapper{
+  background-color: transparent !important;
+  border:0px;
+}

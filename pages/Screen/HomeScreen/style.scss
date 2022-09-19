@@ -1,0 +1,21 @@
+.home-container{
+    background-color: red;
+    .ant-modal-wrap.ant-modal-centered {
+        background: black;
+    }
+    .ant-modal-body {
+        background: black;
+    }
+}
+.modal-earth{ 
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 99999;
+    .ant-modal-body{
+        background: transparent !important;
+        padding: 0px;
+    }
+    .ant-modal .ant-modal-content {
+        border:0px !important;
+        background: transparent !important;
+    }
+}

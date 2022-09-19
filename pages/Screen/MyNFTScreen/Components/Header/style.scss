@@ -1,0 +1,8 @@
+@import 'pages/Style/global.scss';
+@import 'pages/Style/variable.scss';
+.ant-modal{
+        .ant-modal-content{
+            background:  map-get($background-colors,'bg-modal') !important;
+            border: 1px solid map-get($border-colors , 'border-modal' ) !important;
+        }
+    }

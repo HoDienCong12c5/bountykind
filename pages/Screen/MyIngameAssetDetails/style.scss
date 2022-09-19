@@ -1,0 +1,64 @@
+@use "sass:map";
+@import "pages/Style/variable.scss";
+
+.animation{
+    animation: flicker 1s infinite alternate ease-in-out;
+    @keyframes flicker {
+        0% {
+            opacity: 0.2;
+            font-size: 20px;
+            color: white;
+
+        }
+        50% {
+            opacity: 0.5;
+            color:  #F66164
+        }
+        100% {
+            opacity: 1;
+            color: #FA3A3D;
+        }
+    }
+    @-moz-keyframes flicker {
+        0% {
+            opacity: 0.2;
+            color: white;
+        }
+        50% {
+            opacity: 0.5;
+            color:  #F66164
+        }
+        100% {
+            opacity: 1;
+            color: #FA3A3D;
+        }
+    }
+    @-webkit-keyframes flicker {
+        0% {
+            opacity: 0.2;
+            font-size: 18px;
+            color: white;
+        }
+        50% {
+            opacity: 0.5;
+            font-size: 16px;
+            color:  #F66164
+        }
+        100% {
+            opacity: 1;
+            font-size: 14px;
+            color: #FA3A3D;
+        }
+    }
+}
+.ant-input-affix-wrapper > input.ant-input {
+    padding: 0;
+    border: none;
+    outline: none;
+    color: black;
+}
+.ant-input-suffix{
+    color:black
+}.input.ant-input{
+    color: black;
+}

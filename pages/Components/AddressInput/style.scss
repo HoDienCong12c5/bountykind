@@ -1,0 +1,11 @@
+.address-input-wrapper {
+  position: relative;
+  .address-input-error {
+    position: absolute;
+    left: 0;
+    top: 56px;
+    line-height: 20px;
+    color: #EB5757;
+    font-size: 14px;
+  }
+}

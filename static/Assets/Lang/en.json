@@ -1,0 +1,413 @@
+{
+  "signIn": "Sign In",
+  "signOut": "Sign Out",
+  "connect": "CONNECT",
+  "noSupport": "Please open Metamask extension supporting browsers such as Chrome or Firefox.",
+  "onlySupportNetwork": "Network is not matched. Please check the network of your application.",
+  "warnInternerOffline": "Please check your network connection!!",
+  "warnInternerOnline": "Internet connection is back",
+  "warningContinueLogin":{
+    "title":"Warning",
+    "description":"The login retention period has expired. Requires you to login again to continue because it relate to security."
+  },
+  "txtWarningActiveMetaMask": "Please activate wallet first.",
+  "txtWarningInstallMetaMask": "Please install Metamask first.",
+  "txtWarningSigninMetaMaskError": "Connect Error. Please try again!",
+  "pleaseUnder5mb":"Please choose an image under 5MB",
+  "common": {
+    "back": "Back",
+    "backToHome": "Back to Homepage",
+    "yes": "Yes",
+    "no": "No",
+    "next": "Next",
+    "uploading": "Uploading...",
+    "create": "Create",
+    "learnMore": "Learn more",
+    "noInfo": "No information",
+    "amount": "Amount",
+    "total": "Total",
+    "choose": "Choose",
+    "cancel": "Cancel",
+    "search": "Search",
+    "ok": "OK",
+    "delete": "Delete",
+    "noData": "No Data",
+    "nodataFound":"No Data Found",
+    "copied": "Copied",
+    "accept": "Accept",
+    "noThanks":"No Thanks",
+    "select": "Select",
+    "loginAgain":"Login again",
+    "received":"Received",
+    "playGame":"Play Game",
+    "play":"Play",
+    "getDirections":"Get Directions",
+    "charge":"Charge",
+    "balance":"Balance",
+    "moreDetails":"More Details",
+    "withdraw":"Withdraw",
+    "apply":"Apply",
+    "claim":"Claim",
+    "swapMore":"Swap more",
+    "boughtMarket":"Bought from market",
+    "enterScholarship":"Enter scholarship",
+    "backMyAccount":"Back To My Account",
+    "close":"Close",
+    "view3D":"Click to view 3D Model",
+    "close3D":"Click to close 3D Model",
+    "3DLoading":"3D Loading...",
+    "waiting":"Waiting..."
+  },
+  "form": {
+    "pleaseInputNumber": "Please input a integer number!",
+    "minNumberInput": "The minimum should be greater or equal 10",
+    "maxDigits": "Maximum",
+    "emptyPassword": "Please enter password",
+  "txtWarningInvalidAddess": "There is an invalid ID (42 character start with 0x)",
+    "emptyAddress": "Please enter Address"
+  },
+  "errors": {
+    "notEnoughGas": "Not enough gas fee",
+    "deniedTransaction": "Error: User denied process",
+    "somethingWrong": "Something went wrong with your transaction. Please wait a minute and try again.",
+    "insufficientBalance": "Insufficient balance",
+    "invalidAddress": "Invalid ID (42 characters start with 0x)",
+    "numberMustGreaterThanZero": "The number must be greater than zero!",
+    "numberMustGreaterThan": "The number must be greater than [number]!",
+    "noLogin": "Are you sure you want to proceed?",
+    "txtNoLogin": "register (Sign in)",
+    "notAllowed": "You are not allowed to create NFT",
+    "pageNotFound": "PAGE NOT FOUND"
+  },
+  "guide": {
+    "signInMetamask": "Sign in to Metamask",
+    "openBrowserMetamask": "Open up your browser's Metamask extension."
+  },
+  "policy": {
+    "title": "Privacy Policy"
+  },
+  "terms": {
+    "title": "Terms of Use"
+  },
+  "maintenance": {
+    "title": "Currently the web is under maintenance.",
+    "desc": "We apologize for any inconvenience, please wait a moment."
+  },
+  "connectApp": {
+    "connectUsing": "Connect using",
+    "connectTo": "Connect wallet",
+    "connectToAWallet": "Connect to a wallet",
+    "metamask": "Metamask",
+    "connectToMetamask": "Connect to your MetaMask Wallet",
+    "walletConnect": "WalletConnect",
+    "scanWithWalletConnect": "Scan with WalletConnect to connect",
+    "disconnect": "Logout"
+  },
+  "home": {
+    "title": "Home",
+    "banner": {
+      "explore": "Explore",
+      "turnYour": "LET’S AIM<br />TO BE AN <br/>EMPEROR!"
+    },
+    "keyFeaturePlay":{
+      "title": "Player character customization",
+      "desc": "Choose between different signature styles for your  character." 
+    },
+    "keyFeatureDecide":{
+      "title": "Decide the future and direction ofbountykinds",
+      "desc": "Through holding the Bountykinds governance token."
+    },
+    "keyFeatureTrade":{
+      "title": "Trade",
+      "desc": "Buy & Sell card." 
+    },
+    "keyFeatureExploration":{
+      "title": "Exploration",
+      "desc": "Become a Bountykinds player and experience a  new world." 
+    },
+    "linkEarth":{
+      "tradingMarket":{
+        "title": "Trading market",
+        "desc": "LA new day in the deep space trading market. It's a new world, a new life of prosperity for yourself. Deep underneath the surface, you are on the hunt for the precious minerals powering galactic trade."
+      },
+      "trainingArea":{
+        "title": "Training Area",
+        "desc": "The view is breath-taking. The power is overwhelming. The world is yours.You are drilling at the heart of a planet in the far reaches of deep space. The energy you produce could power a country. Those power plants from the ReBirth rewards drop came in handy after all."
+      },
+      "mainMap":{
+        "title": "Main Map",
+        "desc": "The sound of wailing echoes across the plains. The Sogmian procession solemnly marches in step past their ancestors’ gravestones, still haunted by the fate of their leader. The sun begins to set as they bring Paizul’s cryopod at the top of the Rock of Light. As a beam of light consumes the pod to upload it to eternal rest with the ancients, Bekalu falls to his knees with a wrathful howl. The crowd is rattled to the core, a foreboding of things to come."
+      },
+      "moonArea":{
+        "title": "Moon Area",
+        "desc": "Their Titan class warship served as a fortified city to protect them. Built in retaliation for the decimation of their species and the slaying of their leader, the Sogmian behemoth was a galactic alpha predator. This weapon of war was so intimidating it caused the other factions to encourage peace talks."
+      },
+      "wormHole":{
+        "title": "Worm hole",
+        "desc": "The wormhole theory postulates that a theoretical passage through space-time could create shortcuts for long journeys across the universe. Wormholes are predicted by the theory of general relativity. But be wary: wormholes bring with them the dangers of sudden collapse, high radiation and dangerous contact with exotic matter."
+      }
+    },
+    "slideInfor":{
+      "des1":"Five races that fight fiercely for the survival and pride of their own species. The war keeps continuing to expand till the point of extinction of all races.",
+      "des2":"At that time, the heads of various tribes signed apact. Regardless of race, three strong teams that have achieved the most battle results in that year will govern the world for the next year. The world of Bountykinds is a one-year cycle with three months, and every three months the ranking of the battle resilts is decided and the rulers will be decided."
+    },
+    "titleGame":"What is bountykinds?",
+    "description":"Bountykind is a play-to-earn, fantasy blockchain game based on Binance Chain. From the ashes of destruction, emperors will rise! Epic stories, action combat and classic roleplaying await those herors courageous enough to enter the fantastic world of Bountykinds!",
+    "history":"Year 00 of new war calendar the endless battle for world reign has now begun",
+    "keyFeatures":"Key features"
+  },
+  "store": {
+    "title": "Store"
+  },
+  "market": {
+    "title": "Marketplace",
+    "des": "THE WORLD'S FIRST AND LARGEST NFT MARKETPLACE",
+    "buyNow": "BUY NOW",
+    "items": "items"    
+  },
+  "mainNav": {
+    "menu": "Menu",
+    "trade": "Trade",
+    "bridge": "Bridge",
+    "whitepaper": "Whitepaper",
+    "board": "Board",
+    "profile": "Profile",
+    "scholarship": "Scholarship"
+  },
+  "footer": {
+    "joinTheMovement": "Join the movement!",
+    "weAreGuardians": "#WeAreGuardians",
+    "termsAndConditions": "Terms of conditions",
+    "privacy": "Privacy policy",
+    "disclaimer": "Disclaimer"
+  },
+  "nft": {
+    "viewAll": "View all",
+    "buyNow": "Buy now",
+    "byClickingOnAboveButtonsYouAgreeAbout": "By clicking on above buttons you agree about ",
+    "termsOfServices": "Terms of services",
+    "seller": "SELLER",
+    "startDate": "START DATE",
+    "storeId": "STORE ID",
+    "comment": "COMMENT",
+    "marketCap": "Market Cap",
+    "price": "PRICE",
+    "highestTradingPrice": "Highest trading price",
+    "lowestTransactionPrice": "Lowest transaction price",
+    "averageTransactionPrice": "Average transaction price",
+    "lastTransactionPrice": "Last transaction price",
+    "similarItems": "Similar Items",
+    "retrieve": "Retrieve",
+    "changePrice": "Change price",
+    "retrieveItem": "Retrieve item",
+    "areYouSureYouWouldLikeToRetrieveIt": "Are you sure you would like to retrieve it?",
+    "confirmRetrievement": "Confirm retrievement",
+    "yourRetrievementHasStarted": "Your retrievement has started",
+    "itemRetrievedSuccessfully": "Item retrieved successfully!",
+    "itemWithDrawSuccessfully": "Item withdraw successfully!",
+    "itemWithRentSuccessfully": "Item with rent successfully!",
+    "waitingForBuyer": "Waiting for buyer...",
+    "waitingForSwap": "Swaping",
+    "oldPrice": "Old price",
+    "newSellingPrice": "New selling price",
+    "confirmPriceChange": "Confirm price change",
+    "yourPriceChangeHasStarted": "Your price change has started",
+    "priceChangedSuccessfully": "Price changed successfully!",
+    "buynft": "Buy NFT",
+    "areYouSureYouWouldLikeToBuyIt": "Are you sure you would like to buy it?",
+    "buy": "Buy",
+    "approveYourPointForBuying": "Approve your point for buying",
+    "approveYourPointForSending": "Sending",
+    "confirmTrade": "Confirm buy",
+    "yourTransactionHasStarted": "Your transaction has started",
+    "itemBoughtSuccessfully": "Item bought successfully!",
+    "buyMore": "Buy more",
+    "goToMarket": "Go to market",
+    "confirm": "Confirm",
+    "amount": "Amount",
+    "new": "New",
+    "high": "High",
+    "low": "Low",
+    "popular": "Popular",
+    "market": "Market",
+    "trade": "Trade",
+    "experienceIt":"Experience It"
+  },
+  "packageItem": {
+    "buy" : "BUY",
+    "selectHowMany": "Select how many packs to purchase",
+    "notAvailable": "NOT AVAILABLE"
+  },
+  "userProfile": {
+    "ViewExplorer": "View Explorer",
+    "uploadFailed": "Upload Failed",
+    "editProfile": "Edit Profile",
+    "username": "Username",
+    "update": "Update",
+    "inputYourName": "Input your name"
+  },
+  "myNFT": {
+    "title": "My NFTs",
+    "details": "Details",
+    "send": "Send",
+    "sell": "Sell",
+    "play": "Play",
+    "retrieve": "Retrieve",
+    "receiverAddress": "Receiver address",
+    "confirmSending": "Sending",
+    "waitingForBlockchainConfirmation": "Please wait for a little while",
+    "yourSendingHasStarted": "Your sending has started",
+    "tomoNetworkIsProcessingYourTransactionWhichCanTakeALittleWhile": "Please wait for a little while",
+    "itemSentSuccessfully": "Card sent successfully!",
+    "unlockYourItemForSelling": "Selling",
+    "confirmSell": "Selling",
+    "yourTransactionHasStarted": "Your selling has started",
+    "itemOnSellSuccessfully": "Item on sell successfully!",
+    "itemOnScholarshipSuccessfully": "Item on scholarship successfully!",
+    "sellItem": "Sell item",
+    "howToUse": "How to use",
+    "sellingPrice": "SELLING PRICE",
+    "comissionFee": "COMISSION FEE",
+    "OfSellingPrice": "of selling price",
+    "commissionFeeWillBeChargedImmediatelyFromYourBuyerWhenThisItemIsBought": "Commission fee will be charged immediately from your buyer when this item is bought.",
+    "yourNetRevenue": "YOUR NET REVENUE",
+    "paymentMethod": "PAYMENT METHOD",
+    "comment": "COMMENT",
+    "sellingFee": "SELLING FEE",
+    "changeSellingPrice": "CHANGE SELLING PRICE",
+    "asLongAsThereHasNotYeBeenAnyBuyerYouCanChangeTheSellingPriceOfYourItem": "As long as there has not yet been any buyer, you can change the selling price of your item.",
+    "cancelSelling": "CANCEL SELLING",
+    "asLongAsThereHasNotYetBeenAnyBuyerYouCanCancelSellingYourItem": "As long as there has not yet been any buyer, you can cancel selling your item.",
+    "selling": "Selling",
+    "tokenFeeSend": "You need [tokenFee] to send",
+    "category": "Category",
+    "package": "Packages",
+    "allCategories": "All categories",
+    "All": "All",
+    "items": "items",
+    "updateSuccess": "Update successfully",
+    "scholarship": "Scholarship",
+    "pleasePressAcceptToContinue":"Please press accept to continue",
+    "doYouWantSthThisNFT?":{
+      "rent":"Do you want to rent this NFT?",
+      "withdraw":"Do you want to withdraw this NFT?",
+      "continue":"Do you want to continue scholarship this NFT?"
+    },
+    "enterAddress":"Enter Address",
+    "freeWillCharged":"free will be charged",
+    "warningExpired":"This scholarship has expired",
+    "inScholarship":"In Scholarship",
+    "scholarshipOffered":"Scholarship offered",
+    "waitingScholarship":"Waiting for scholar",
+    "scholarshipExpired": "Scholarship expired"
+  },
+  "receiveCharacters":{
+    "youNeedToHaveAtLeast3CharactersToJoinTheGame":"You need to have at least 3 characters to join the game.",
+    "wouldYouLikeToSelectYourCharactersFromThisListAndPlayForFreeInOneWeek":"Would you like to select your characters from this list and play for free in one week?",
+    "yourReceived":"This account already received three characters!",
+    "yourStartGame":"You can start your game now.",
+    "getCharacter":"GET CHARACTERS"
+  },
+  "itIsExceededMaxOfNumberItems":"It is exceeded max of number items",
+  "receiveSuccess":"RECEIVED SUCCESSFULLY",
+  "warningReceive":"It may take a while until your characters show up on your account",
+  "address":"Address",
+  "baseStats":{
+    "title":"Base Stats",
+    "hp":"HP",
+    "attack":"Attack",
+    "speed":"Speed",
+    "critical":"Critical",
+    "defend":"Defend",
+    "luck":"Luck"
+  },
+  "attributes":"Attributes",
+  "properties":{
+    "title":"PROPERTIES",
+    "details":"DETAILS",
+    "contactAddress":"Contact Address",
+    "tokenID":"Token ID"
+  },
+  "confirm":{
+    "sell":{
+      "confirm":"Confirm Selling",
+      "started":"our selling has started",
+      "success":"NFT on sell Successfully!"
+    },
+    "changePrice":{
+      "confirm":"Confirm price change",
+      "started":"Your price change has started",
+      "success":"Price changed successfully!"
+    },
+    "scholarship":{
+      "confirm":"Confirm scholarship application",
+      "started":"Your scholarship application has started",
+      "success":"Scholarship applied successfully!"
+    },
+    "withDraw":{
+      "confirm":"Confirm scholarship withdrawal",
+      "started":"Your scholarship withdrawal has started",
+      "success":"Scholarship withdrew successfully!"
+    },
+    "myNFT":{
+      "success":"NFT sent successfully!",
+      "sending":"Confirm Sending"
+    }
+  },
+  "gacha":{
+    "title":"Gacha",
+    "luckyDraw":"Lucky Draw",
+    "charactersGacha":"CHARACTERS GACHA",
+    "itemGacha":"ITEM GACHA"
+  },
+  "scholarship":{
+    "scholarship":"scholarship",
+    "requires":"Requires",
+    "owner":"Owner",
+    "lendingPeriod":"Lending Period( minutes)",
+    "passwordRequired":"Password required",
+    "enterComment":"Please enter comment",
+    "enterPassword":"please enter a password",
+    "questionOffer":"Do you want to offer a Scholarship?"
+  },
+  "acceptRent":{
+    "titleApply":"${name} (APPLY) FOR SCHOLARSHIP",
+    "titleWithDraw":"${name} (WITHDRAW) FOR SCHOLARSHIP",
+    "desApply":"Are you sure you would like to {name} (apply for )this scholarship?",
+    "desWithDraw":"Are you sure you would like to {name} (withdraw for) this scholarship?"
+  },
+  "latest":"Latest",
+  "lowestPrice":"Lowest Price",
+  "hightPrice":"Highest Price",
+  "token":{
+    "yuBalance":"YU Point Balance",
+    "claimYu":"Claim YU Token",
+    "desYu":"You are exchanging ${e} Yu Point to Yu token",
+    "errorYu":"Exceed the maximum withdrawal in the game",
+    "enterAmountHelper":"Please input the number of YU Token you want to claim from YU Point. The ratio is 1:1",
+    "tokenToPoint":{
+      "chargeYuPoint":"Charge YU Point",
+      "balanceYuPoint":"You are having ${userGameInfo?.yuPoint && numberWithCommas(userGameInfo?.yuPoint)} YU Point . \n YU point is necessary to play on Board. \n Do you want to charge your Yu Point from YU Token?",
+      "chargeEnergyPoint":"Charge energy",
+      "balanceEnergyPoint":"You are having ${userGameInfo?.energy && numberWithCommas(userGameInfo?.energy)} Energy. \n Energy is necessary to play on Board.\n Do you want to charge your Energy from FFE Token?",
+      "chargeSuccess":"Charged Successfully",
+      "desSuccessEnergy":"You charged your Energy from FFE Token successfully.",
+      "desSuccessYu":"You charged your Energy from FFE Token successfully.",
+      "confirmCharging":"Confirm charging"
+    },
+    "confirm":{
+      "start":"The process has started",
+      "desStart":"System is processing your transaction which can take a little while"
+    },
+    "enoughTokens":"You don't have enough ${modalData.tokenName}"
+  },
+  "warningEnterIntegerNumber":"Please input an integer number!",
+  "playGame":{
+  "notifications":"Notifications",
+  "playGameJustSupportOnSesktopBrowsers":"Play game just support on desktop browsers"
+  },
+  "bountyBelt":{
+    "titleLostAfterGame":"You lost!",
+    "descriptionLostAfterGame":"if you can't finish the game in 30 senconds, it will be over.\n To continue to play now, please pay a fee of 5 BWP/time"
+  }
+}

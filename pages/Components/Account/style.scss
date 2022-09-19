@@ -1,0 +1,80 @@
+.account-container{
+    width: 470px;
+    padding: 30px 35px;
+    font-family: Crimson Text;
+    font-style: normal;
+    font-weight: normal;
+    .info-wrapper{
+        padding-bottom: 30px;
+        border-bottom: 1px solid #f2f2f2;
+        .info-block{
+            &:not(:first-child){
+                margin-top: 25px;
+            }
+            .title{
+                margin: 0;
+                font-size: 16px;
+                line-height: 22px;
+                color: #B42033;
+            }
+            .content {
+                margin: 0;
+                font-size: 16px;
+                line-height: 22px;
+                color: #828282;
+            }
+            .address-wrapper{
+                display: flex;
+                align-items: center; 
+                .icon-copy{
+                    width: 24px;
+                    height: 24px;
+                    margin-left: 5px;
+                    background-position: center !important;
+                    background-repeat: no-repeat !important;
+                    background-size: cover !important;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .link-wrapper{
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        .link{
+            text-transform: uppercase;
+            margin: 0;
+            margin-top: 25px;
+            font-size: 16px;
+            line-height: 22px;
+            color: #828282;
+            transition: 0.3s all;
+            &:hover {
+                color: #B42033;
+            }
+        }
+    }
+    .bacoor-logo{
+        margin-top: 50px;
+        width: 100px;
+        height: 14px;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+    .bacoor-link{
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+        color: #828282;
+        text-decoration-line: underline;
+    }
+    .text{
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+        color: rgba(130, 130, 130, 0.5);
+    }
+}

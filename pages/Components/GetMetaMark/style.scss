@@ -1,0 +1,23 @@
+@import 'pages/Style/variable.scss';
+
+.get-metamask {
+    .txt-wanna-title {
+        font-size: 28px;
+        font-weight: Bold;
+        margin-bottom: 10px;
+        color: map-get($text-colors, 'color-2')
+    }
+
+    .txt-wanna-content {
+        font-size: 14px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .bottom-content {
+        padding: 0 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

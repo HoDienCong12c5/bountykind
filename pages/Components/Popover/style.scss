@@ -1,0 +1,27 @@
+.popover {
+  position: absolute;
+  bottom: 66px;
+  right: 15px;
+  background: #FFF;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 20px;
+  min-width: 195px;
+  max-width: 90%;
+  transition: 0.15s all;
+  transform: translateY(9999px);
+  &.show {
+    transform: translateY(0);
+  }
+  .popover-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .popover-title {
+      color: #000;
+      font-size: 22px;
+      font-weight: bold;
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@use "sass:map";
+@import "pages/Style/variable.scss";
+.list-ranking{
+    .item-list-ranking{
+        color: white;
+        padding:10px;
+        .row-item{
+            display: flex;
+            flex-direction: row;
+            margin: 10px;
+            font-size: 14px;
+            .title{
+                min-width: 180px;
+                font-size: 16px;
+                font-weight: 800;
+                align-self: center;
+            }
+        }
+    }
+    .row-odd{
+        background-color: rgb(33, 33, 35) !important;
+        
+    }
+    .row-even{
+       
+        background-color: rgba(45, 45, 49,1) !important;
+    }
+    .row-first{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .row-last{
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .on-hover{
+        cursor: pointer;
+        &:hover{
+            text-decoration: underline; 
+        }
+    }
+    
+}
+.ant-list-split {
+    .ant-list-item {
+        border-bottom: 0px solid #f0f0f0;
+    }
+}

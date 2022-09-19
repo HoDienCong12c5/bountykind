@@ -1,0 +1,18 @@
+.price-dropdown {
+  border-radius: 15px !important;
+  .ant-select-item {
+    height: 50px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    .ant-select-item-option-content {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+  }
+  .ant-select-item-option-active {
+    background: #f2f2f2 !important;
+    color: #333333 !important;
+  }
+}

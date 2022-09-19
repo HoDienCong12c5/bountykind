@@ -1,0 +1,14 @@
+.ant-menu-submenu{
+    background-color: transparent !important;
+    border-radius: 10px;
+    border-bottom: none !important;
+    &:hover{
+        border-bottom: none !important;  
+    }
+    .ant-menu{
+        background-color: rgb(25, 25, 25) !important;
+        border-radius: 10px !important;
+        opacity: 0.9 !important;
+        color: white !important;
+    }
+}
